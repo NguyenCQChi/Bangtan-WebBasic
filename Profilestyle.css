@@ -1,0 +1,13 @@
+.container {width: 1200px; margin-top: 50px; margin: 70px auto 0; background: dimgrey; display: flex; flex-direction: row; flex-wrap: wrap}
+
+.container .box {position: relative; width: 300px; height: 300px; background: dimgrey; box-sizing: border-box; display: inline-block}
+
+.container .box .imgBox {position: relative; overflow: hidden}
+
+.container .box .imgBox img {width: 300px; height: 300px; transition: transform 1s}
+
+.container .box:hover .imgBox img {transform: scale(1.2)}
+
+.container .box .details {position: absolute; bottom: 1px; height: 130px; background: rgba(0,0,0,.8); transform: scaleY(0); transition: transform 1s}
+
+.container .box:hover .details {transform: scaleY(1)}
