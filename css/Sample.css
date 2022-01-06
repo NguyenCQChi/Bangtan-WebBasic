@@ -1,0 +1,68 @@
+Body {
+        background: black;
+        color: lightgrey
+}
+
+/* This is for top navigation */
+nav ul {
+        list-style: none;
+        margin: 0;
+        padding: 0
+}
+
+nav li {
+        display: inline-block;
+        margin-left: 20px;
+        margin-right: 35px;
+        padding-bottom: 10px;
+        padding-top: 10px;
+        font-size: 15px;
+        position: relative
+}
+
+a {
+        color: white;
+}
+
+nav a {
+        color: white;
+        text-transform: uppercase;
+        text-decoration: none;
+        font-weight: 400
+}
+
+nav a:hover {
+        color: yellow
+}
+
+nav a::before {
+        content: '';
+        display: block;
+        background: white;
+        height: 3px;
+        margin-bottom: 15px;
+        width: 0%;
+        transition: all ease-in-out 200ms
+}
+
+nav a:hover::before {
+        width: 100%
+}
+
+/* This is for Home html page */
+h1 {
+        font-size: 22px;
+        color: azure
+}
+
+p {
+        font-size: 18px
+}
+
+.center {
+        margin-left: auto;
+}
+
+.logo {
+        width: 100%;
+}

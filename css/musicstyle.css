@@ -17,4 +17,4 @@ h {position: absolute; top: 50%; transform: translateY(-50%); text-align: center
 p {position: absolute; top: 50%; transform: translateY(-30%); padding: 15px}
 
 
-p1 {font-size: 17px}
+.description {font-size: 17px}
